@@ -1,2 +1,2 @@
 # RubyMinesHomepage
-a homepage for a ruby mining company
+### A modern, clean home page for a ruby mining company.

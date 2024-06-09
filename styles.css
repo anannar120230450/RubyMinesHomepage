@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Lobster;
+    src: url(./PoetsenOne-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Verdana, Helvetica, Arial, sans-serif;
+    cursor: default;
+}
+
+/* padding */
+body > * {
+    padding: 20px;
+}
+
+/* logo */
+.logo-container {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Lobster, 'Franklin Gothic Medium', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.top-navigation {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-navigation-right-side-links-ul {
+    display: flex;
+    gap: 20px;
+}
+
+.top-navigation-right-side-links-ul > li {
+    color: #e4e4e4;
+}
+
+.top-navigation-right-side-links-ul > li:hover > a {
+    text-decoration: underline;
+}
+
+.page-content-main {
+    flex: 1;
+    border: 2px sloid black;
+    display: flex;
+    justify-content: center;
+}
+
+.page-content-main-content-container {
+    width: 70%;
+    height: 100%;
+    /* position the content at the half start of the div */
+    display: grid;
+    grid-template-rows: 20% auto;
+}
+
+.page-content-main-content-container-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+.page-content-main-content-container-container-hero-text {
+    font-size: 4rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.page-content-main-content-container-container-hero-text-start-of-your-lifes-text-span {
+    color: rgb(255, 86, 19);
+}
+
+.page-content-main-content-container-container-hero-text-start-of-your-lifes-text-span > span:hover {
+    color: rgb(255, 0, 0);
+}
+
+.page-content-main-content-container-container-hero-subtext {
+    font-size: 1.25rem;
+    width: 70%;
+    text-align: center;
+}
+
+.page-content-main-content-container-container-hero-subtext-rubies-text-span {
+    font-weight: bold;
+    color: rgb(216, 38, 38);
+}
+
+.page-content-main-content-container-container-hero-get-started-btn {
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    width: 175px;
+    height: 45px;
+    background-color: rgb(202, 0, 0);
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.page-content-main-content-container-container-hero-get-started-btn:hover {
+    background-color: rgb(255, 86, 19);
+}
